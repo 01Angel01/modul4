@@ -31,7 +31,6 @@ namespace modul4_1302202095
             this.inputDates.Add(DateTime.Now);
             this.storedData.Add(newData);
         }
-
         public void PrintAllData()
         {
             for (int i = 0; i < this.inputDates.Count; i++)
